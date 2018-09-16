@@ -1,0 +1,41 @@
+{%- comment -%}
+Include vars:
+        class
+{%- endcomment -%}
+
+{% case page.language %}
+
+{% when "chinese" %}
+{% assign links = site.data.tools.chinese %}
+
+{% when "english" %}
+{% assign links = site.data.tools.english %}
+
+{% when "spanish" %}
+{% assign links = site.data.tools.spanish %}
+
+{% when "hindi" %}
+{% assign links = site.data.tools.hindi %}
+
+{% when "arabic" %}
+{% assign links = site.data.tools.arabic %}
+
+{% when "portuguese" %}
+{% assign links = site.data.tools.portuguese %}
+
+{% endcase %}
+
+{% for cate in links %}
+<details class="{{ include.class }}" open onmouseover="opendetail(this)">
+    <summary>{{ cate.title }}</summary>
+
+        {% for item in cate.items %}
+        <li>
+            <a href="{{ item.link }}" {% if page.url == item.link %} style="color:white;" {% endif %}>
+            {{ item.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</details>
+    {% endfor %}

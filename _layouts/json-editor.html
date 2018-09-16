@@ -1,0 +1,99 @@
+---
+layout: tool
+styles:
+  - https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.24.6/jsoneditor.min.css
+scripts:
+- https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.24.6/jsoneditor.min.js
+- https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js
+- https://cdnjs.cloudflare.com/ajax/libs/jsonlint/1.6.0/jsonlint.min.js
+- /assets/js/json-editor.js
+---
+{% case page.language %}
+
+{% when "chinese" %}
+{% assign text = site.data.text.chinese %}
+
+{% when "english" %}
+{% assign text = site.data.text.english %}
+
+{% when "spanish" %}
+{% assign text = site.data.text.spanish %}
+
+{% when "hindi" %}
+{% assign text = site.data.text.hindi %}
+
+{% when "arabic" %}
+{% assign text = site.data.text.arabic %}
+
+{% when "portuguese" %}
+{% assign text = site.data.text.portuguese %}
+
+{% endcase %}
+<style type="text/css" scoped>
+    .json-editor {
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        height:600px;
+    }
+    .json-editor-left{
+        width: 50%;
+        height:100%;
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+    }
+    .json-editor-right{
+        width: 50%;
+        height:100%;
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+    }
+    #code-panel{
+        width:100%;
+        height:100%;
+        min-height: 200px;
+        flex-grow: 1;
+    }
+    #json-panel{
+        width: 100%;
+        height:100%;
+        min-height: 200px;
+        flex-grow: 1;
+    }
+    .buttons{
+        padding:10px;
+    }
+    @media screen and (max-width: 1024px){
+        .json-editor{
+            flex-direction: column;
+        }
+        .json-editor-left{
+            width:100%;
+            min-height: 200px;
+        }
+        .json-editor-right{
+            width:100%;
+            min-height: 200px;
+        }
+    }
+</style>
+
+<div class="json-editor" ondragover="allowDrop(event)">
+    <div class="json-editor-left">
+        <div id="code-panel"></div>
+        <div class="buttons">
+            <label>ctrl+f：</label><button onclick="format()">{{ text.format }}</button>
+            <label>ctrl+c：</label><button onclick="compact()">{{ text.compact }}</button>
+            <label>ctrl+p：</label><button onclick="toView()">{{ text.convert }}</button>
+        </div>
+    </div>
+    <div class="json-editor-right">
+        <div id="json-panel"></div>
+        <div class="buttons">
+            <label>ctrl+q：</label><button onclick="toCode()">{{ text.convert }}</button>
+        </div>
+    </div>
+</div>
+<div class="pagebody">{{ content }}</div>

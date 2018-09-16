@@ -1,0 +1,62 @@
+chinese:
+  - name: "返回主页:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
+    link: "/"
+  - name: "<span style='color:blue'>正在促销></span>"
+    link: "https://c.duomai.com/track.php?k=WYppWas1DZpVXZmcDOwMTPklWYmAjMzUjMy0DZp9VZ0l2cmYiRyUSbvNmLzYTMuU3b5ZkMlYkMlE0MlAHd0hWP0Zibj9"
+  - name: 亚马逊
+    link: "https://www.amazon.cn/?tag=znrio-23"
+  - name: 天猫
+    link: "http://g.click.taobao.com/q?ak=24663635&pid=mm_33963329_6520758_142982992&unid=lijiaocn&rf=http%3A%2F%2Fwww.lijiaocn.com%2F%25E5%25A5%25BD%25E8%25B4%25A7%2F2010%2F10%2F10%2Fsites.html&rd=2&et=97775937&pgid=be61cbd8f3af2ff376aa0c1a3103628d&ct=url%3Dhttps%253A%252F%252Fwww.tmall.com%252F&v=1.2&ttype=1&cm=674%2C742%3B654%2C598%3B615%2C639%3B579%2C634%3B597%2C656%3B587%2C667%3B639%2C797%3B777%2C675%3B624%2C701%3B561%2C709&ck=&cw=0"
+  - name: 网易严选
+    link: "https://c.duomai.com/track.php?k=WYppWas1DZpVXZmcDOwMTPklWYmAjMzUjMy0DZp9VZ0l2cmYiRyUSbvNmLzYTMuU3b5ZkMlYkMlE0MlAHd0hWP0Zibj9"
+  - name: 考拉海购
+    link: "https://c.duomai.com/track.php?k=j9WYppWas1DZpVXZmczM3ETPklWYmAjMzUjMy0DZp9VZ0l2cmYiJGJTJt92YuEGbvF2auc3d3ZkMlYkMlE0MlAHd0hWP0Zib"
+  - name: 蘑菇街
+    link: "https://c.duomai.com/track.php?k=uN2bhlmapxWPklWdlZSMyYTPklWYmAjMzUjMy0DZp9VZ0l2cmYiRyUSbvNmLllma1d2bt5yd3dnRyUiRyUSQzUCc0RHa9QnJ"
+  - name: 京东
+    link: "https://c.duomai.com/track.php?site_id=224482&lid=4193&aid=61&euid=lijiaocn&t=http%3A%2F%2Fwww.360buy.com%2F"
+  - name: 益丰药房
+    link: "https://p.gouwuke.com/0Rdyy"
+  - name: RoseOnly.
+    link: "https://c.duomai.com/track.php?k=ibj9WYppWas1DZpVXZmMDMxITPklWYmAjMzUjMy0DZp9VZ0l2cmYiJuNmLt92YukHbu9WZz9mcuc3d3ZkMlYkMlE0MlAHd0hWP0Z"
+  - name: 造作
+    link: "https://c.duomai.com/track.php?k=lAHd0hWP0Zibj9WYppWas1DZpVXZmQDOzMTPklWYmAjMzUjMy0DZp9VZ0l2cmYiJpFWbvVHZfB3ckR0Ml02byZmeGNTJGJTJt92Yu8Wd69WY6ZkMlYkMlE0M"
+  - name: 艺网
+    link: "https://c.duomai.com/track.php?k=m0DZpVXZmITO5MTPklWYmAjMzUjMy0DZp9VZ0l2cm02bj5CdyF2d55yd3dnRyUiRyUSQzUycwRHdo1Dd"
+  - name: 无人机
+    link: "http://click.dji.com/AIxnZwK6V7mHitF4Mik?pm=custom"
+
+english:
+  - name: "Switch language:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
+    link: "/"
+  - name: "<span style='color:blue'>Discounted! ></span>"
+  - name: amazon
+    link: "https://www.amazon.com/?tag=znrio-23"
+
+spanish:
+  - name: "Cambiar idioma:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
+    link: "/"
+  - name: "<span style='color:blue'>Descuentos! ></span>"
+  - name: Amazonas
+    link: "https://www.amazon.com/?tag=znrio-23"
+
+hindi:
+  - name: "भाषा स्विच करें:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
+    link: "/"
+  - name: "<span style='color:blue'>रियायती! ></span>"
+  - name: वीरांगना
+    link: "https://www.amazon.com/?tag=znrio-23"
+
+arabic:
+  - name: "تبديل اللغة:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
+    link: "/"
+  - name: "<span style='color:blue'>مخفضة!></span>"
+  - name: الأمازون
+    link: "https://www.amazon.com/?tag=znrio-23"
+
+Portuguese:
+  - name: "Trocar de idioma:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
+    link: "/"
+  - name: "<span style='color:blue'>Discounted! ></span>"
+  - name: amazona
+    link: "https://www.amazon.com/?tag=znrio-23"

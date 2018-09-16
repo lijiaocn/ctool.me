@@ -1,0 +1,30 @@
+chinese:
+  - title: "JSON工具"
+    items:
+      - name: "JSON多功能编辑器"
+        link: /zh/json-editor.html
+english:
+  - title: "JSON Tool"
+    items:
+      - name: "JSON multi-function editor"
+        link: /en/json-editor.html
+spanish:
+  - title: "Herramienta JSON"
+    items:
+      - name: "Editor multifunción JSON"
+        link: /es/json-editor.html
+hindi:
+  - title: "JSON उपकरण"
+    items:
+      - name: "JSON मल्टी-फ़ंक्शन संपादक"
+        link: /en/json-editor.html
+arabic:
+  - title: "أداة JSON"
+    items:
+      - name: "JSON متعددة الوظائف محرر"
+        link: /ar/json-editor.html
+portuguese:
+  - title: "Ferramenta JSON"
+    items:
+      - name: "Editor multifuncional JSON"
+        link: /pt/json-editor.html

@@ -1,0 +1,60 @@
+{% case page.language %}
+{% when "chinese" %}
+{% assign text = site.data.text.chinese %}
+
+{% when "english" %}
+{% assign text = site.data.text.english %}
+
+{% when "spanish" %}
+{% assign text = site.data.text.spanish %}
+
+{% when "hindi" %}
+{% assign text = site.data.text.hindi %}
+
+{% when "arabic" %}
+{% assign text = site.data.text.arabic %}
+
+{% when "portuguese" %}
+{% assign text = site.data.text.portuguese %}
+
+{% endcase %}
+<!DOCTYPE html>
+<html lang="{{ text.lang }}">
+<head>
+{% include head_basic.html %}
+
+{% for item in layout.styles %}
+<link href="{{ item }}" rel="stylesheet"/>
+{% endfor %}
+
+{% for item in page.styles %}
+<link href="{{ item }}" rel="stylesheet"/>
+{% endfor %}
+
+</head>
+
+<body class="body">
+	<div class="top">
+			{% include top_banner.html %}
+	</div>
+    <div class="center">
+        <nav id="nav" class="nav" >
+           {% include compont_menu.html class="menu"%}
+        </nav>
+        <div class="workspace">
+            {{ content }}
+        </div>
+    </div>
+	<div class="bottom">
+			{% include bottom_foot.html %}
+	</div>
+	<script src="/assets/js/js.js" charset="utf-8"></script>
+    {% for item in layout.scripts %}
+    <script src="{{ item }}" defer></script>
+    {% endfor %}
+
+    {% for item in page.scripts %}
+    <script src="{{ item }}" defer></script>
+    {% endfor %}
+</body>
+</html>
