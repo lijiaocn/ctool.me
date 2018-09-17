@@ -1,5 +1,5 @@
 chinese:
-  - name: "返回主页:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
+  - name: "切换语言:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
     link: "/"
   - name: "<span style='color:blue'>正在促销></span>"
     link: "https://c.duomai.com/track.php?k=WYppWas1DZpVXZmcDOwMTPklWYmAjMzUjMy0DZp9VZ0l2cmYiRyUSbvNmLzYTMuU3b5ZkMlYkMlE0MlAHd0hWP0Zibj9"
@@ -31,32 +31,32 @@ english:
     link: "/"
   - name: "<span style='color:blue'>Discounted! ></span>"
   - name: amazon
-    link: "https://www.amazon.com/?tag=znrio-23"
+    link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
 
 spanish:
   - name: "Cambiar idioma:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
     link: "/"
   - name: "<span style='color:blue'>Descuentos! ></span>"
   - name: Amazonas
-    link: "https://www.amazon.com/?tag=znrio-23"
+    link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
 
 hindi:
   - name: "भाषा स्विच करें:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
     link: "/"
   - name: "<span style='color:blue'>रियायती! ></span>"
   - name: वीरांगना
-    link: "https://www.amazon.com/?tag=znrio-23"
+    link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
 
 arabic:
   - name: "تبديل اللغة:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
     link: "/"
   - name: "<span style='color:blue'>مخفضة!></span>"
   - name: الأمازون
-    link: "https://www.amazon.com/?tag=znrio-23"
+    link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
 
 Portuguese:
   - name: "Trocar de idioma:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
     link: "/"
   - name: "<span style='color:blue'>Discounted! ></span>"
   - name: amazona
-    link: "https://www.amazon.com/?tag=znrio-23"
+    link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
