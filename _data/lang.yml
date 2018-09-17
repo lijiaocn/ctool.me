@@ -1,13 +1,18 @@
-- note: 英语
-  en: English
-  name: "English"
-  comment: 3.6亿
-  link: "/en/json-editor.html"
 - note: 汉语
   en: Chinese
   name: "中文"
   comment: 12亿
   link: "/zh/json-editor.html"
+- note: 英语
+  en: English
+  name: "English"
+  comment: 3.6亿
+  link: "/en/json-editor.html"
+- note: 孟加拉语
+  en: Bengali
+  name: "বাঙালি"
+  comment: 1.7亿
+  link: "/bn/json-editor.html"
 - note: 西班牙语
   en: Spanish
   name: "Español"
@@ -61,8 +66,3 @@
   en: Vietnamese
   name: "Tiếng Việt"
   link: "/vi/json-editor.html"
-- note: 孟加拉语
-  en: Bengali
-  name: "বাঙালি"
-  comment: 1.7亿
-  link: "/bn/json-editor.html"

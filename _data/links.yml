@@ -8,7 +8,7 @@ chinese:
   - name: 艺网
     link: "https://c.duomai.com/track.php?k=m0DZpVXZmITO5MTPklWYmAjMzUjMy0DZp9VZ0l2cm02bj5CdyF2d55yd3dnRyUiRyUSQzUycwRHdo1Dd"
   - name: 无人机
-    link: "http://click.dji.com/AIxnZwK6V7mHitF4Mik?pm=custom"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
   - name: RoseOnly.
     link: "https://c.duomai.com/track.php?k=ibj9WYppWas1DZpVXZmMDMxITPklWYmAjMzUjMy0DZp9VZ0l2cmYiJuNmLt92YukHbu9WZz9mcuc3d3ZkMlYkMlE0MlAHd0hWP0Z"
   - name: 亚马逊
@@ -32,13 +32,17 @@ english:
   - name: "<span style='color:blue'>Discounted! ></span>"
   - name: amazon
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: Drone
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 bengali:
   - name: "ভাষা পরিবর্তন করুন:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
     link: "/"
   - name: "<span style='color:blue'>ছাড়! ></span>"
-  - name: নারী-সৈনিক
+  - name: "নারী-সৈনিক"
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "গুঁজনধ্বনি"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 vietnamese:
   - name: "Chuyển đổi ngôn ngữ:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -46,13 +50,17 @@ vietnamese:
   - name: "<span style='color:blue'>Discounted! ></span>"
   - name: amazon
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "bay không người lái"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 thai:
   - name: "เปลี่ยนภาษา:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
     link: "/"
   - name: "<span style='color:blue'>ลด!></span>"
-  - name: อเมซอน
+  - name: "อเมซอน"
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "เสียงหึ่งๆ"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 korean:
   - name: "스위치 언어:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -60,6 +68,8 @@ korean:
   - name: "<span style='color:blue'>할인되었습니다! ></span>"
   - name: 아마존
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "무인 비행기"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 russian:
   - name: "Переключить язык:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -67,6 +77,8 @@ russian:
   - name: "<span style='color:blue'>Discounted! ></span>"
   - name: Амазонка
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "трутень"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 italian:
   - name: "Cambia lingua:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -74,6 +86,8 @@ italian:
   - name: "<span style='color:blue'>Scontato! ></span>"
   - name: amazon
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "fuco"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 french:
   - name: "Changer de langue:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -81,6 +95,8 @@ french:
   - name: "<span style='color:blue'>Discounted! ></span>"
   - name: amazone
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "drone"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 japanese:
   - name: "スイッチ言語:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -88,6 +104,8 @@ japanese:
   - name: "<span style='color:blue'>Discounted! ></span>"
   - name: アマゾン
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "無人機"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 spanish:
   - name: "Cambiar idioma:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -95,6 +113,8 @@ spanish:
   - name: "<span style='color:blue'>Descuentos! ></span>"
   - name: Amazonas
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "zumbido"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 hindi:
   - name: "भाषा स्विच करें:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -102,6 +122,8 @@ hindi:
   - name: "<span style='color:blue'>रियायती! ></span>"
   - name: वीरांगना
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: 无人机
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 arabic:
   - name: "تبديل اللغة:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -109,6 +131,8 @@ arabic:
   - name: "<span style='color:blue'>مخفضة!></span>"
   - name: الأمازون
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "मुफ़्तक़ोर"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 portuguese:
   - name: "Trocar de idioma:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -116,6 +140,8 @@ portuguese:
   - name: "<span style='color:blue'>Com desconto! ></span>"
   - name: amazona
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
+  - name: "drone"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
 
 german:
   - name: "Sprache umstellen:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>"
@@ -123,6 +149,5 @@ german:
   - name: "<span style='color:blue'>Ermäßigte! ></span>"
   - name: Amazonas
     link: "https://www.amazon.com/gp/homepage.html/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=ctoolus-20&linkId=64d29b09b81aa947e7d0f4067575ba9c"
-
-
-
+  - name: "Drohne"
+    link: "https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom"
