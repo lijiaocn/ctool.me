@@ -8,6 +8,31 @@ english:
     items:
       - name: "JSON multi-function editor"
         link: /en/json-editor.html
+bengali:
+  - title: "JSON টুল"
+    items:
+      - name: "JSON মাল্টি ফাংশন সম্পাদক"
+        link: /bn/json-editor.html
+vietnamese:
+  - title: "Công cụ JSON"
+    items:
+      - name: "Trình chỉnh sửa đa chức năng JSON"
+        link: /vi/json-editor.html
+thai:
+  - title: "เครื่องมือ JSON"
+    items:
+      - name: "ตัวแก้ไขมัลติฟังก์ชั่น JSON"
+        link: /th/json-editor.html
+korean:
+  - title: "JSON 도구"
+    items:
+      - name: "JSON 다기능 편집기"
+        link: /ko/json-editor.html
+russian:
+  - title: "Инструмент JSON"
+    items:
+      - name: "Многофункциональный редактор JSON"
+        link: /ru/json-editor.html
 spanish:
   - title: "Herramienta JSON"
     items:
@@ -28,3 +53,23 @@ portuguese:
     items:
       - name: "Editor multifuncional JSON"
         link: /pt/json-editor.html
+german:
+  - title: "JSON-Tool"
+    items:
+      - name: "JSON-Multifunktions-Editor"
+        link: /de/json-editor.html
+japanese:
+  - title: "JSONツール"
+    items:
+      - name: "JSON多機能エディタ"
+        link: /ja/json-editor.html
+french:
+  - title: "Outil JSON"
+    items:
+      - name: "Éditeur multifonction JSON"
+        link: /fr/json-editor.html
+italian:
+  - title: "Strumento JSON"
+    items:
+      - name: "Editor multifunzione JSON"
+        link: /it/json-editor.html

@@ -1,26 +1,7 @@
-- note: 孟加拉语
-  en: Bengali
-  name: "বাঙালি"
-  comment: 1.7亿
-  link: ""
-- note: 俄语
-  en: Russian
-  name: "русский"
-  comment: 1.7亿
-  link: ""
-- note: 日语
-  en: Japanese
-  name: "日本語"
-  comment: 1.3亿
-  link: ""
 - note: 旁遮普语
   en: Punjabi
   name: "ਪੰਜਾਬੀ"
   comment: 1亿
-  link: ""
-- note: 德语
-  en: "German"
-  name: "Deutsche"
   link: ""
 - note: 爪哇语
   en: Javanese
@@ -34,25 +15,9 @@
   en: Telugu
   name: "தெலுங்கு"
   link: ""
-- note: 越南语
-  en: Vietnamese
-  name: "Tiếng Việt"
-  link: ""
-- note: 韩语
-  name: "한국어"
-  en: Korean
-  link: ""
-- note: 法语
-  en: French
-  name: "français"
-  link: ""
 - note: 马拉地语
   en: Marathi
   name: "मराठी"
-  link: ""
-- note: 意大利语
-  en: Italian
-  name: "italiano"
   link: ""
 - note: 乌尔都语
   en: Urdu
@@ -61,8 +26,4 @@
 - note: 土耳其语
   en: Turkish
   name: "Türk"
-  link: ""
-- note: 泰语
-  en: Thai
-  name: "ไทย"
   link: ""
