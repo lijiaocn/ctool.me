@@ -4,7 +4,17 @@
  *
  * Distributed under terms of the GPL license.
  */
-/*baidu auto push*/
+
+/* Baidu tongji */
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2d7cce06bc9752ce2a9635a206cb1aad";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+
+/* Baidu auto push */
 (function(){
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
