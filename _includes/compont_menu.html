@@ -11,8 +11,8 @@ Include vars:
 {% when "english" %}
 {% assign links = site.data.tools.english %}
 
-{% when "bengali" %}
-{% assign links = site.data.tools.bengali %}
+{% when "english" %}
+{% assign links = site.data.tools.english %}
 
 {% when "vietnamese" %}
 {% assign links = site.data.tools.vietnamese %}
@@ -55,7 +55,7 @@ Include vars:
 {% for cate in links %}
 <details class="{{ include.class }}" open onmouseover="opendetail(this)">
     <summary>{{ cate.title }}</summary>
-
+    <ul>
         {% for item in cate.items %}
         <li>
             <a href="{{ item.link }}" {% if page.url == item.link %} style="color:white;" {% endif %}>
