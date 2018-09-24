@@ -8,6 +8,7 @@ Include vars:
         display:flex;
         justify-content: center;
         flex-wrap:wrap;
+        line-height:25px;
     }
     .siteul li{
         list-style:none;
@@ -25,10 +26,16 @@ Include vars:
         color: black;
     }
     .siteli a:visited{
-        color:#551ab8;
+        /*color:#551ab8;*/
     }
     .sitedetail{
         display: inline-block;
+    }
+    .sitedetail summary::-webkit-details-marker {
+        display: none;
+    }
+    .sitedetail summary:first-of-type {
+        list-style-type: none;
     }
     .sitedetail summary:visited{
         color:#551ab8;
@@ -39,7 +46,6 @@ Include vars:
     .sitedetail li{
         list-style:none;
         display: block;
-        text-index:0px;
     }
     .sitedetail a{
         display: block;
@@ -51,7 +57,7 @@ Include vars:
         color: black;
     }
     .sitedetail a:visited{
-        color:#551ab8;
+        /*color:#551ab8;*/
     }
     @media screen and (max-width: 1024px) {
         .siteul{
