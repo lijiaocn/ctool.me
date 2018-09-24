@@ -1,6 +1,6 @@
 ---
 layout: json-editor
-title:  "JSON多功能在线编辑校验格式化，支持语法检查、压缩、反压缩、树形图等-简洁、快速、好用"
+title:  "JSON多功能在线编辑器,在线校验格式化、语法检查、压缩、反压缩、树形树状查看"
 date:   2018-09-10 08:20:24 +0800
 permalink: /zh/json-editor.html
 language: chinese

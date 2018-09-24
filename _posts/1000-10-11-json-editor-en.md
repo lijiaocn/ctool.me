@@ -1,6 +1,6 @@
 ---
 layout: json-editor
-title:  "JSON multi-function editor: formatter,compactor,validator,beautifier,parser and tree viewer(Simple and easy to use)"
+title:  "JSON online editor,formatter,compactor,validator,beautifier,parser and tree viewer"
 date:   2018-09-10 08:20:24 +0800
 permalink: /en/json-editor.html
 language: english
