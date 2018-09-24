@@ -53,6 +53,14 @@ Include vars:
     .sitedetail a:visited{
         color:#551ab8;
     }
+    @media screen and (max-width: 1024px) {
+        .siteul{
+            margin:5px;
+            display:flex;
+            justify-content: flex-start;
+            flex-wrap:wrap;
+        }
+    }
 </style>
 {% for items in site.data.links %}
   {% for item in items %}
