@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-25T01:32:33+08:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">JSON多功能在线编辑校验格式化，支持语法检查、压缩、反压缩、树形图等-简洁、快速、好用</title><link href="http://localhost:4000/zh/json-editor.html" rel="alternate" type="text/html" title="JSON多功能在线编辑校验格式化，支持语法检查、压缩、反压缩、树形图等-简洁、快速、好用" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/zh/json-editor-zh</id><content type="html" xml:base="http://localhost:4000/zh/json-editor.html">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+
+&lt;p&gt;JSON(JavaScript Object Notation)是&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt;的子集, &lt;a href=&quot;https://www.json.org/json-zh.html&quot; title=&quot;JSON的语法说明书中文版&quot;&gt;JSON的语法说明书中文版&lt;/a&gt;中对json的语法有详细的介绍。
+JSON数据格式与语言无关，脱胎于JavaScript，但目前很多编程语言都支持JSON格式数据的生成和解析。作为一种轻量级的数据交换格式。易于阅读和编写，同时也易于机器解析和生成。&lt;/p&gt;
+
+&lt;p&gt;这是一个在线的json编辑器，在左侧窗口中编写json代码时，会自动进行语法检查并提示错误。通过窗口下方的几个按钮，可以对json代码进行格式化（样式美化）、压缩，以及转换成右侧树形视图。
+右侧的树形图也可以编辑，可以直接添加／删除json node, 以及修改json node的值。&lt;/p&gt;
+
+&lt;p&gt;除了json编辑器，你还可以把它当作json排版格式化工具、json美化工具、json压缩工具、json查看器等，当json文本比较长、并且把压缩成一行的时候，
+这个工具能帮助你快速理清json的构造和内容。&lt;/p&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/zh-cn/JSON&quot; title=&quot;JSON维基百科中文版&quot;&gt;JSON维基百科中文版&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/json-zh.html&quot; title=&quot;JSON的语法说明书中文版&quot;&gt;JSON的语法说明书中文版&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github: jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">说明</summary></entry><entry><title type="html">Trình chỉnh sửa đa chức năng JSON: trình định dạng, trình nén, trình xác thực, trình làm đẹp, trình phân tích cú pháp và trình xem dạng cây (Đơn giản và dễ sử dụng)</title><link href="http://localhost:4000/vi/json-editor.html" rel="alternate" type="text/html" title="Trình chỉnh sửa đa chức năng JSON: trình định dạng, trình nén, trình xác thực, trình làm đẹp, trình phân tích cú pháp và trình xem dạng cây (Đơn giản và dễ sử dụng)" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/vi/json-editor-vi</id><content type="html" xml:base="http://localhost:4000/vi/json-editor.html">&lt;h2 id=&quot;giới-thiệu&quot;&gt;Giới thiệu&lt;/h2&gt;
+
+&lt;p&gt;JSON (JavaScript Object Notation) là một tập hợp con của &lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;Ngôn ngữ lập trình JavaScript&lt;/a&gt;, và cú pháp của json được mô tả chi tiết trong &lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;Trang web chính thức của JSON&lt;/a&gt;.
+Định dạng dữ liệu JSON là độc lập về ngôn ngữ và đã được sinh ra từ JavaScript, nhưng nhiều ngôn ngữ lập trình hiện đang hỗ trợ việc tạo và phân tích dữ liệu định dạng JSON. Là một định dạng trao đổi dữ liệu nhẹ. Dễ đọc và viết, nhưng cũng dễ dàng phân tích và tạo máy.&lt;/p&gt;
+
+&lt;p&gt;Đây là trình soạn thảo json trực tuyến tự động kiểm tra cú pháp và nhắc lỗi khi viết mã json ở cửa sổ bên trái. Mã json có thể được định dạng (theo kiểu), nén và chuyển đổi sang chế độ xem dạng cây phù hợp thông qua một số nút bên dưới cửa sổ.
+Chế độ xem dạng cây ở bên phải cũng có thể được chỉnh sửa, bạn có thể trực tiếp thêm / xóa các nút json và sửa đổi giá trị của nút json.&lt;/p&gt;
+
+&lt;p&gt;Ngoài trình soạn thảo json, bạn cũng có thể sử dụng nó như một trình định dạng json, json beautifier, json compressor, json viewer, và nhiều hơn nữa.
+Công cụ này có thể giúp bạn nhanh chóng hiểu cấu trúc và nội dung của json khi văn bản json dài và được nén thành một dòng.&lt;/p&gt;
+
+&lt;h2 id=&quot;tài-liệu-tham-khảo&quot;&gt;Tài liệu tham khảo&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;JSON trên MediaWiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;Trang web chính thức của JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;Ngôn ngữ lập trình JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github: jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Giới thiệu</summary></entry><entry><title type="html">ตัวแก้ไขหลายฟังก์ชัน JSON: formatter, compactor, validator, beautifier, parser และ tree viewer (ใช้งานง่ายและใช้งานง่าย)</title><link href="http://localhost:4000/th/json-editor.html" rel="alternate" type="text/html" title="ตัวแก้ไขหลายฟังก์ชัน JSON: formatter, compactor, validator, beautifier, parser และ tree viewer (ใช้งานง่ายและใช้งานง่าย)" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/th/json-editor-th</id><content type="html" xml:base="http://localhost:4000/th/json-editor.html">&lt;h2 id=&quot;บทนำ&quot;&gt;บทนำ&lt;/h2&gt;
+
+&lt;p&gt;JSON (JavaScript Object Notation) เป็นชุดย่อยของ &lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt; และไวยากรณ์ของ json ได้อธิบายไว้ในรายละเอียดใน &lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;เว็บไซต์ทางการของ JSON&lt;/a&gt;
+รูปแบบข้อมูล JSON เป็นภาษาที่เป็นอิสระและเกิดจาก JavaScript แต่ภาษาโปรแกรมหลายภาษาในปัจจุบันสนับสนุนการสร้างและแยกวิเคราะห์ข้อมูลรูปแบบ JSON เป็นรูปแบบการแลกเปลี่ยนข้อมูลที่มีน้ำหนักเบา ง่ายต่อการอ่านและเขียน แต่ยังง่ายต่อการแยกวิเคราะห์และสร้างเครื่อง&lt;/p&gt;
+
+&lt;p&gt;นี่คือตัวแก้ไข json แบบออนไลน์ที่ตรวจสอบไวยากรณ์โดยอัตโนมัติและแจ้งข้อผิดพลาดเมื่อเขียนโค้ด json ในหน้าต่างด้านซ้าย โค้ด json สามารถจัดรูปแบบ (แบบมีสไตล์) บีบอัดและแปลงเป็นมุมมองต้นไม้ขวาผ่านปุ่มต่างๆที่อยู่ด้านล่างหน้าต่าง
+มุมมองต้นไม้ทางด้านขวายังสามารถแก้ไขคุณโดยตรงสามารถเพิ่ม / ลบโหนด json และปรับเปลี่ยนค่าของโหนด json&lt;/p&gt;
+
+&lt;p&gt;นอกเหนือจากตัวแก้ไข json แล้วคุณยังสามารถใช้รูปแบบ json, beautifier json, คอมเพรสเซอร์ json, viewer json และอื่น ๆ ได้
+เครื่องมือนี้สามารถช่วยให้คุณเข้าใจโครงสร้างและเนื้อหาของ json ได้อย่างรวดเร็วเมื่อข้อความ json ยาวและถูกบีบอัดไว้ในบรรทัดเดียว&lt;/p&gt;
+
+&lt;h2 id=&quot;การอ้างอิง&quot;&gt;การอ้างอิง&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;JSON มีเดียวิกิ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;เว็บไซต์ทางการของ JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Language Language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github: jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">บทนำ</summary></entry><entry><title type="html">Многофункциональный редактор JSON: форматирование, компактор, валидатор, декодер, синтаксический анализатор и просмотрщик деревьев (простой и простой в использовании)</title><link href="http://localhost:4000/ru/json-editor.html" rel="alternate" type="text/html" title="Многофункциональный редактор JSON: форматирование, компактор, валидатор, декодер, синтаксический анализатор и просмотрщик деревьев (простой и простой в использовании)" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/ru/json-editor-ru</id><content type="html" xml:base="http://localhost:4000/ru/json-editor.html">&lt;h2 id=&quot;введение&quot;&gt;Введение&lt;/h2&gt;
+
+&lt;p&gt;JSON (JavaScript Object Notation) является подмножеством &lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt;, а синтаксис json подробно описан на официальном сайте JSON &lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;2&lt;/a&gt;.
+Формат данных JSON не зависит от языка и родился из JavaScript, но многие языки программирования в настоящее время поддерживают генерацию и анализ данных формата JSON. В качестве облегченного формата обмена данными. Легко читается и записывается, но также легко обрабатывается и обрабатывается.&lt;/p&gt;
+
+&lt;p&gt;Это онлайн-редактор json, который автоматически проверяет наличие синтаксиса и вызывает ошибки при написании кода json в левом окне. Код json можно форматировать (стилизовать), сжать и преобразовать в правый вид дерева через несколько кнопок под окном.
+Древовидное представление справа также можно редактировать, вы можете напрямую добавлять / удалять узлы json и изменять значение json-узла.&lt;/p&gt;
+
+&lt;p&gt;В дополнение к редактору json вы также можете использовать его как json formatter, json beautifier, json compressor, json viewer и многое другое.
+Этот инструмент поможет вам быстро понять структуру и содержимое json, когда текст json длинный и сжат в одну строку.&lt;/p&gt;
+
+&lt;h2 id=&quot;справка&quot;&gt;Справка&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;JSON на MediaWiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;Официальный сайт JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;Язык программирования JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github: jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Введение</summary></entry><entry><title type="html">JSON editor multi-função: formatador, compactador, validador, embelezador, analisador e visualizador de árvore (simples e fácil de usar)</title><link href="http://localhost:4000/pt/json-editor.html" rel="alternate" type="text/html" title="JSON editor multi-função: formatador, compactador, validador, embelezador, analisador e visualizador de árvore (simples e fácil de usar)" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/pt/json-editor-pt</id><content type="html" xml:base="http://localhost:4000/pt/json-editor.html">&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt;
+
+&lt;p&gt;JSON (JavaScript Object Notation) é um subconjunto de &lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt;, e a sintaxe de json é descrita em detalhes em &lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;JSON official website&lt;/a&gt;.
+O formato de dados JSON é independente de linguagem e nasceu do JavaScript, mas muitas linguagens de programação atualmente suportam a geração e a análise de dados no formato JSON. Como um formato de troca de dados leve. Fácil de ler e escrever, mas também fácil de processar e analisar.&lt;/p&gt;
+
+&lt;p&gt;Este é um editor on-line json que automaticamente verifica a sintaxe e solicita erros ao escrever o código json na janela da esquerda. O código json pode ser formatado (estilizado), compactado e convertido para a visualização de árvore correta por meio de vários botões abaixo da janela.
+A visão em árvore à direita também pode ser editada, você pode adicionar / excluir diretamente nós json e modificar o valor do nó json.&lt;/p&gt;
+
+&lt;p&gt;Além do editor json, você também pode usá-lo como formatador json, json beautifier, json compressor, json viewer e muito mais.
+Essa ferramenta pode ajudá-lo a entender rapidamente a estrutura e o conteúdo do json quando o texto do json é longo e compactado em uma única linha.&lt;/p&gt;
+
+&lt;h2 id=&quot;referência&quot;&gt;Referência&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;JSON no MediaWiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;Site oficial do JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;linguagem de programação JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github: jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Introdução</summary></entry><entry><title type="html">JSON 다기능 편집기 : 포맷터, 압축기, 유효성 검사기, 미화, 파서 및 트리 뷰어 (간단하고 사용하기 쉬운)</title><link href="http://localhost:4000/ko/json-editor.html" rel="alternate" type="text/html" title="JSON 다기능 편집기 : 포맷터, 압축기, 유효성 검사기, 미화, 파서 및 트리 뷰어 (간단하고 사용하기 쉬운)" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/ko/json-editor-ko</id><content type="html" xml:base="http://localhost:4000/ko/json-editor.html">&lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
+
+&lt;p&gt;JSON (JavaScript Object Notation)은 &lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript 프로그래밍 언어&lt;/a&gt;의 하위 집합이며 json의 구문은 &lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;JSON 공식 웹 사이트&lt;/a&gt;에 자세히 설명되어 있습니다.
+JSON 데이터 형식은 언어에 독립적이며 JavaScript로 인해 만들어졌지만 현재 많은 프로그래밍 언어가 JSON 형식 데이터의 생성 및 구문 분석을 지원합니다. 가벼운 데이터 교환 형식. 읽고 쓰는 것이 쉽지만 파싱 및 생성을 쉽게 처리 할 수 ​​있습니다.&lt;/p&gt;
+
+&lt;p&gt;이 편집기는 온라인 json 편집기로서 구문을 자동으로 확인하고 왼쪽 창에 json 코드를 작성할 때 오류를 표시합니다. json 코드는 형식이 지정되고, 압축되고, 창 아래의 여러 단추를 통해 올바른 트리보기로 변환 될 수 있습니다.
+오른쪽의 트리보기를 편집하거나 json 노드를 직접 추가 / 삭제하고 json 노드의 값을 수정할 수도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;json 편집기 외에도 json 포맷터, json beautifier, json 압축기, json 뷰어 등으로 사용할 수도 있습니다.
+이 도구는 json 텍스트가 길고 한 줄로 압축 될 때 json의 구조와 내용을 빨리 이해할 수 있도록 도와줍니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;JSON on MediaWiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;JSON 공식 웹 사이트&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;자바 스크립트 프로그래밍 언어&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github : jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">소개</summary></entry><entry><title type="html">JSON多機能エディタ：フォーマッタ、コンパクタ、バリデータ、美化器、パーサ、ツリービューア（シンプルで使いやすい）</title><link href="http://localhost:4000/ja/json-editor.html" rel="alternate" type="text/html" title="JSON多機能エディタ：フォーマッタ、コンパクタ、バリデータ、美化器、パーサ、ツリービューア（シンプルで使いやすい）" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/ja/json-editor-ja</id><content type="html" xml:base="http://localhost:4000/ja/json-editor.html">&lt;h2 id=&quot;前書き&quot;&gt;前書き&lt;/h2&gt;
+
+&lt;p&gt;JSON（JavaScript Object Notation）は&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt;のサブセットであり、JSONの構文は&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;JSON公式サイト&lt;/a&gt;で詳しく説明されています。
+JSONデータフォーマットは言語に依存せず、JavaScriptから生まれましたが、多くのプログラミング言語は現在、JSONフォーマットデータの生成と解析をサポートしています。軽量のデータ交換フォーマットです。読み込みと書き出しが簡単ですが、構文解析と生成も簡単です。&lt;/p&gt;
+
+&lt;p&gt;これはオンラインのjsonエディタで、構文を自動的にチェックし、左側のウィンドウにjsonコードを書くときにエラーを表示します。 jsonコードは、書式設定（スタイル指定）、圧縮、およびウィンドウの下のいくつかのボタンを使用して正しいツリービューに変換できます。
+右側のツリービューは編集することもでき、jsonノードを直接追加/削除したり、jsonノードの値を変更したりすることができます。&lt;/p&gt;
+
+&lt;p&gt;jsonエディタに加えて、jsonフォーマッタ、json beautifier、jsonコンプレッサ、jsonビューアなどとしても使用できます。
+このツールは、jsonテキストが長く、1行に圧縮されているときに、jsonの構造と内容をすばやく理解するのに役立ちます。&lt;/p&gt;
+
+&lt;h2 id=&quot;参照&quot;&gt;参照&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;JSON on MediaWiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;JSON公式サイト&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScriptプログラミング言語&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github：jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">前書き</summary></entry><entry><title type="html">Editor multi-funzione JSON: formatter, compactor, validator, beautifier, parser e tree viewer (semplice e facile da usare)</title><link href="http://localhost:4000/it/json-editor.html" rel="alternate" type="text/html" title="Editor multi-funzione JSON: formatter, compactor, validator, beautifier, parser e tree viewer (semplice e facile da usare)" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/it/json-editor-it</id><content type="html" xml:base="http://localhost:4000/it/json-editor.html">&lt;h2 id=&quot;introduzione&quot;&gt;introduzione&lt;/h2&gt;
+
+&lt;p&gt;JSON (JavaScript Object Notation) è un sottoinsieme di &lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt; e la sintassi di json è descritta dettagliatamente in &lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;JSON official website&lt;/a&gt;.
+Il formato dei dati JSON è indipendente dalla lingua e nasce da JavaScript, ma molti linguaggi di programmazione attualmente supportano la generazione e l’analisi dei dati in formato JSON. Come un formato di scambio di dati leggero. Facile da leggere e scrivere, ma anche facile da analizzare e generare.&lt;/p&gt;
+
+&lt;p&gt;Questo è un editor JSON in linea che verifica automaticamente la presenza di errori di sintassi e prompt durante la scrittura del codice JSON nella finestra di sinistra. Il codice JSON può essere formattato (con stile), compresso e convertito nella vista ad albero destra attraverso diversi pulsanti sotto la finestra.
+La vista ad albero sulla destra può anche essere modificata, è possibile aggiungere / eliminare direttamente nodi json e modificare il valore del nodo json.&lt;/p&gt;
+
+&lt;p&gt;Oltre all’editor di JSON, puoi anche usarlo come formattatore JSON, abbellimento JSON, JSON compressor, JSON viewer e altro.
+Questo strumento può aiutarti a comprendere rapidamente la struttura e il contenuto di JSON quando il testo JSON è lungo e compresso in una singola riga.&lt;/p&gt;
+
+&lt;h2 id=&quot;riferimento&quot;&gt;Riferimento&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;JSON su MediaWiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;Sito Web ufficiale JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github: jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">introduzione</summary></entry><entry><title type="html">जेएसओएन मल्टी-फ़ंक्शन संपादक: फॉर्मेटर, कॉम्पैक्टर, सत्यापनकर्ता, ब्यूटीफायर, पार्सर और ट्री व्यूअर (सरल और उपयोग करने में आसान)</title><link href="http://localhost:4000/hi/json-editor.html" rel="alternate" type="text/html" title="जेएसओएन मल्टी-फ़ंक्शन संपादक: फॉर्मेटर, कॉम्पैक्टर, सत्यापनकर्ता, ब्यूटीफायर, पार्सर और ट्री व्यूअर (सरल और उपयोग करने में आसान)" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/hi/json-editor-hi</id><content type="html" xml:base="http://localhost:4000/hi/json-editor.html">&lt;h2 id=&quot;परिचय&quot;&gt;परिचय&lt;/h2&gt;
+
+&lt;p&gt;JSON (जावास्क्रिप्ट ऑब्जेक्ट नोटेशन) &lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;जावास्क्रिप्ट प्रोग्रामिंग भाषा&lt;/a&gt; का एक उप-समूह है, और जेसन के सिंटैक्स को &lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;जेएसओएन आधिकारिक वेबसाइट&lt;/a&gt; में विस्तार से वर्णित किया गया है।
+जेएसओएन डेटा प्रारूप भाषा-स्वतंत्र है और जावास्क्रिप्ट से पैदा हुआ है, लेकिन वर्तमान में कई प्रोग्रामिंग भाषा जेएसओएन प्रारूप डेटा की पीढ़ी और पार्सिंग का समर्थन करती हैं। हल्के डेटा एक्सचेंज प्रारूप के रूप में। पढ़ने और लिखने में आसान है, लेकिन मशीन पार्सिंग और जेनरेट करना भी आसान है।&lt;/p&gt;
+
+&lt;p&gt;यह एक ऑनलाइन जेसन संपादक है जो स्वचालित रूप से सिंटैक्स की जांच करता है और बाएं विंडो में जेसन कोड लिखते समय त्रुटियों को संकेत देता है। जेसन कोड को स्वरूपित (स्टाइल), संपीड़ित, और खिड़की के नीचे कई बटनों के माध्यम से दाएं पेड़ दृश्य में परिवर्तित किया जा सकता है।
+दाईं तरफ के पेड़ दृश्य को भी संपादित किया जा सकता है, आप सीधे जेसन नोड्स को जोड़ / हटा सकते हैं, और जेसन नोड के मान को संशोधित कर सकते हैं।&lt;/p&gt;
+
+&lt;p&gt;जेसन संपादक के अलावा, आप इसे एक जेसन फॉर्मेटर, जेसन ब्यूटीफायर, जेसन कंप्रेसर, जेसन दर्शक, आदि के रूप में भी उपयोग कर सकते हैं।
+यह टूल जेसन की संरचना और सामग्री को जल्दी से समझने में आपकी सहायता कर सकता है जब जेसन टेक्स्ट लंबा होता है और एक पंक्ति में संपीड़ित होता है।&lt;/p&gt;
+
+&lt;h2 id=&quot;संदर्भ&quot;&gt;संदर्भ&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;मीडियाविकि पर जेएसओएन&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;जेएसओएन आधिकारिक वेबसाइट&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;जावास्क्रिप्ट प्रोग्रामिंग भाषा&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github: jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">परिचय</summary></entry><entry><title type="html">Éditeur multifonction JSON: formateur, compacteur, validateur, embellisseur, analyseur et visualiseur d’arbre (simple et facile à utiliser)</title><link href="http://localhost:4000/fr/json-editor.html" rel="alternate" type="text/html" title="Éditeur multifonction JSON: formateur, compacteur, validateur, embellisseur, analyseur et visualiseur d'arbre (simple et facile à utiliser)" /><published>2018-09-10T08:20:24+08:00</published><updated>2018-09-10T08:20:24+08:00</updated><id>http://localhost:4000/fr/json-editor-fr</id><content type="html" xml:base="http://localhost:4000/fr/json-editor.html">&lt;h2 id=&quot;introduction&quot;&gt;introduction&lt;/h2&gt;
+
+&lt;p&gt;JSON (JavaScript Object Notation) est un sous-ensemble de &lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;JavaScript Programming Language&lt;/a&gt;, et la syntaxe de json est décrite en détail dans &lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;site officiel JSON&lt;/a&gt;.
+Le format de données JSON est indépendant de la langue et est né de JavaScript, mais de nombreux langages de programmation prennent actuellement en charge la génération et l’analyse de données au format JSON. En tant que format d’échange de données léger. Facile à lire et à écrire, mais aussi facile à analyser et à générer.&lt;/p&gt;
+
+&lt;p&gt;Ceci est un éditeur en ligne json qui vérifie automatiquement la syntaxe et invite les erreurs lors de l’écriture du code json dans la fenêtre de gauche. Le code json peut être formaté, compressé et converti dans la vue arborescente droite via plusieurs boutons situés sous la fenêtre.
+L’arborescence à droite peut également être modifiée, vous pouvez directement ajouter / supprimer des nœuds json et modifier la valeur du nœud json.&lt;/p&gt;
+
+&lt;p&gt;En plus de l’éditeur json, vous pouvez également l’utiliser en tant que formateur json, json beautifier, compresseur json, visualiseur json, etc.
+Cet outil peut vous aider à comprendre rapidement la structure et le contenu de json lorsque le texte json est long et compressé en une seule ligne.&lt;/p&gt;
+
+&lt;h2 id=&quot;référence&quot;&gt;Référence&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/JSON&quot; title=&quot;JSON wiki&quot;&gt;JSON sur MediaWiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.json.org/&quot; title=&quot;JSON official website&quot;&gt;Site officiel JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascript.crockford.com/&quot; title=&quot;JavaScript Programming Language&quot;&gt;Langage de programmation JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/josdejong/jsoneditor&quot; title=&quot;github: jsoneditor&quot;&gt;github: jsoneditor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">introduction</summary></entry></feed>

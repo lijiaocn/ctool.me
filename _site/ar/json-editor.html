@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="utf-8" content="text/html">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JSON متعددة الوظائف المحرر: المنسق ، الضاغطة ، المدقق ، تجميل ، محلل وشجرة عارض (بسيطة وسهلة الاستخدام)</title>
+<meta name="description" content="محرر وتنسيق json عبر الإنترنت متعدد الاستخدامات ، ولكن يمكن استخدامه كمدقق json ، و json viewer ، و json محلل ، و json beautifier ، و json editor" />
+<meta name="keywords" content=""/>
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- ebay -->
+<script>window._epn = {campaign:5338384777};</script>
+<!--script src="https://epnt.ebay.com/static/epn-smart-tools.js"></script-->
+<script async src="/assets/js/epn-smart-tools.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125829567-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-125829567-1');
+</script>
+<script async src="/assets/js/head.js"></script>
+
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.24.6/jsoneditor.min.css" rel="stylesheet"/>
+
+
+
+
+</head>
+
+<body class="body">
+	<div class="top">
+			
+<style type="text/css" scoped>
+    .innerbanner{
+        background:gray;
+        color:white;
+        padding-right:40px;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width:100%;
+        font-size:15px;
+        padding-left:15px;
+        padding-top:10px;
+    }
+    .innerbanner a{
+        color:white;
+    }
+    .innerbanner a:hover{
+        color: black;
+        text-decoration: none;
+        font-size:large;
+    }
+    .innerbanner #inner_ul {
+        display:flex;
+        color:white;
+        padding-left:0px;
+        margin:0px;
+        align-items: flex-start;
+    }
+    .innerbanner #inner_li {
+        list-style:none;
+        display:inline-block;
+        line-height:25px;
+    }
+    .topdetails{
+        top:10px;
+        display: inline-block;
+    }
+    .topdetails summary::-webkit-details-marker {
+        display: none;
+    }
+    .topdetails summary:first-of-type {
+        list-style-type: none;
+    }
+    .topdetails ul{
+        padding:0px;
+    }
+    .topdetails li{
+        list-style:none;
+        text-index:0px;
+    }
+    .topdetails a{
+        display:block;
+        background:gray;
+        color:white;
+        height:30px;
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .topdetails a:hover{
+        background:darkgray;
+        /*color: white;*/
+        color: black;
+    }
+
+    @media screen and (max-width: 1024px){
+        .logo{
+            display:none;
+        }
+        .innerbanner #inner_ul{
+            list-style:none;
+            display:block;
+        }
+    }
+</style>
+<div class="innerbanner" id="bannerid">
+    <ul id="inner_ul">
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="/">
+                تذكر عنوان URL :&nbsp&nbsp<span style='font-size:large'>ctool.me</span>
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="">
+                <span style='color:blue'>مخفضة!></span>
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom">
+                أزيز
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>الأمازون&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2NBHhN7">الولايات المتحدة</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2N0KGzS">اليابان</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zoRl3e">ألمانيا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zodOgB">المملكة المتحدة</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xAksiw">الهند</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2NBHpfz">فرنسا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zoRwvq">إيطاليا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2O4YeyF">إسبانيا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xAksiw">كندا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.amazon.cn/?tag=znrio-23">الصين</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xKqLiP">البرازيل</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2DotW60">أستراليا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.amazon.com.mx/">المكسيك</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>ايباي 1&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com/">الولايات المتحدة</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.uk/">المملكة المتحدة</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.de/">ألمانيا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.au/">أستراليا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.it/">إيطاليا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.fr/">فرنسا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.es/">إسبانيا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ca/">كندا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ie/">أيرلندا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.at/">النمسا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="http://www.ebay.be/">بلجيكا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.nl/">هولندا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ch/">سويسرا</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>ايباي 2&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.gittigidiyor.com/">تركيا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.pl/">بولندا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.hk/">هونج كونج ، الصين</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="http://global.gmarket.co.kr/Home/Main">كوريا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.sg/">سنغافورة</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ph/">الفلبين</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.my/">ماليزيا</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.in/">الهند</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.cn/">البر الرئيسى للصين</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.jp/">اليابان</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.th/">تايلاند</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.vn/">فيتنام</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.tw/">تايوان ، الصين</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.se/">السويد</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+    </ul>
+</div>
+<p id="hiddenid" style="color:white;position:absolute;right:15px;top:1px;margin:0;padding:0;font-size:12px;" onclick="hiddenBanner()">مخفي</p>
+<script>
+    function hiddenBanner() {
+        var b = document.getElementById("bannerid");
+        var p = document.getElementById("hiddenid");
+        if (b.style.display=="none"){
+            b.style.display="flex";
+            p.innerHTML="مخفي";
+            p.style.color="white"
+        }else{
+            b.style.display="none";
+            p.innerHTML="تبين";
+            p.style.color="white"
+        }
+    }
+</script>
+
+	</div>
+    <div class="center">
+        <nav id="nav" class="nav" >
+           
+
+
+<details class="menu" open onmouseover="opendetail(this)">
+    <summary>أداة JSON</summary>
+    <ul>
+        
+        <li>
+            <a href="/ar/json-editor.html"  style="color:white;" >
+            JSON متعددة الوظائف محرر
+            </a>
+        </li>
+        
+    </ul>
+</details>
+    
+
+        </nav>
+        <div class="workspace">
+            
+<style type="text/css" scoped>
+    .json-editor {
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        height:600px;
+    }
+    .json-editor-left{
+        width: 50%;
+        height:100%;
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+    }
+    .json-editor-right{
+        width: 50%;
+        height:100%;
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+    }
+    #code-panel{
+        width:100%;
+        height:100%;
+        min-height: 200px;
+        flex-grow: 1;
+    }
+    #json-panel{
+        width: 100%;
+        height:100%;
+        min-height: 200px;
+        flex-grow: 1;
+    }
+    .buttons{
+        padding:10px;
+    }
+    @media screen and (max-width: 1024px){
+        .json-editor{
+            flex-direction: column;
+        }
+        .json-editor-left{
+            width:100%;
+            min-height: 200px;
+        }
+        .json-editor-right{
+            width:100%;
+            min-height: 200px;
+        }
+    }
+</style>
+
+<div class="json-editor" ondragover="allowDrop(event)">
+    <div class="json-editor-left">
+        <div id="code-panel"></div>
+        <div class="buttons">
+            <label>ctrl+f：</label><button onclick="format()">شكل</button>
+            <label>ctrl+c：</label><button onclick="compact()">المدمج</button>
+            <label>ctrl+p：</label><button onclick="toView()">تحول</button>
+        </div>
+    </div>
+    <div class="json-editor-right">
+        <div id="json-panel"></div>
+        <div class="buttons">
+            <label>ctrl+q：</label><button onclick="toCode()">تحول</button>
+        </div>
+    </div>
+</div>
+<div class="pagebody"><h2 id="المقدمة">المقدمة</h2>
+
+<p>JSON (ترميز كائن جافا سكريبت) هو مجموعة فرعية من <a href="http://javascript.crockford.com/" title="JavaScript Programming Language">لغة برمجة JavaScript</a> ، ويتم وصف بناء جملة json بالتفصيل في <a href="https://www.json.org/" title="JSON official website">موقع JSON الرسمي</a>.
+تنسيق بيانات JSON مستقل عن اللغة وقد تم إنشاؤه من خلال جافا سكريبت ، ولكن العديد من لغات البرمجة تدعم حاليًا إنشاء بيانات تنسيق JSON وتحليلها. كتنسيق تبادل بيانات خفيف الوزن. سهلة القراءة والكتابة ، ولكن أيضًا من السهل تحليلها وإنتاجها.</p>
+
+<p>هذا هو محرر json عبر الإنترنت يقوم تلقائيًا بالتحقق من بناء الجملة ويطالب الأخطاء عند كتابة رمز json في الإطار الأيسر. يمكن تنسيق كود json (نصب) ، مضغوط ، وتحويله إلى عرض الشجرة الأيمن من خلال عدة أزرار أسفل النافذة.
+يمكن أيضًا تعديل عرض الشجرة على اليمين ، يمكنك إضافة / حذف عقدة json مباشرةً ، وتعديل قيمة عقدة json.</p>
+
+<p>بالإضافة إلى محرر json ، يمكنك أيضًا استخدامه كمنسق json و json beautifier و json compressor و json viewer والمزيد.
+يمكن أن تساعدك هذه الأداة على فهم بنية ومحتوى json بسرعة عندما يكون نص json طويلاً ويتم ضغطه في سطر واحد.</p>
+
+<h2 id="مرجع">مرجع</h2>
+
+<ol>
+  <li><a href="https://en.wikipedia.org/wiki/JSON" title="JSON wiki">JSON على ميدياويكي</a></li>
+  <li><a href="https://www.json.org/" title="JSON official website">الموقع الرسمي JSON</a></li>
+  <li><a href="http://javascript.crockford.com/" title="JavaScript Programming Language">لغة برمجة JavaScript</a></li>
+  <li><a href="https://github.com/josdejong/jsoneditor" title="github: jsoneditor">جيثب: jsoneditor</a></li>
+</ol>
+
+</div>
+
+        </div>
+    </div>
+	<div class="bottom">
+			<p style="color:white">Thanks for use.</p>
+	</div>
+	<script src="/assets/js/js.js" charset="utf-8"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.24.6/jsoneditor.min.js" defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js" defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsonlint/1.6.0/jsonlint.min.js" defer></script>
+    
+    <script src="/assets/js/json-editor.js" defer></script>
+    
+
+    
+</body>
+</html>

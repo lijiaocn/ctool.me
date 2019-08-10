@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" content="text/html">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JSON multi-function editor: formatter,compactor,validator,beautifier,parser and tree viewer(Simple and easy to use)</title>
+<meta name="description" content="A versatile online json editor and formatter, but can be used as json validator, json viewer, json parser, json beautifier and json editor" />
+<meta name="keywords" content=""/>
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- ebay -->
+<script>window._epn = {campaign:5338384777};</script>
+<!--script src="https://epnt.ebay.com/static/epn-smart-tools.js"></script-->
+<script async src="/assets/js/epn-smart-tools.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125829567-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-125829567-1');
+</script>
+<script async src="/assets/js/head.js"></script>
+
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.24.6/jsoneditor.min.css" rel="stylesheet"/>
+
+
+
+
+</head>
+
+<body class="body">
+	<div class="top">
+			
+<style type="text/css" scoped>
+    .innerbanner{
+        background:gray;
+        color:white;
+        padding-right:40px;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width:100%;
+        font-size:15px;
+        padding-left:15px;
+        padding-top:10px;
+    }
+    .innerbanner a{
+        color:white;
+    }
+    .innerbanner a:hover{
+        color: black;
+        text-decoration: none;
+        font-size:large;
+    }
+    .innerbanner #inner_ul {
+        display:flex;
+        color:white;
+        padding-left:0px;
+        margin:0px;
+        align-items: flex-start;
+    }
+    .innerbanner #inner_li {
+        list-style:none;
+        display:inline-block;
+        line-height:25px;
+    }
+    .topdetails{
+        top:10px;
+        display: inline-block;
+    }
+    .topdetails summary::-webkit-details-marker {
+        display: none;
+    }
+    .topdetails summary:first-of-type {
+        list-style-type: none;
+    }
+    .topdetails ul{
+        padding:0px;
+    }
+    .topdetails li{
+        list-style:none;
+        text-index:0px;
+    }
+    .topdetails a{
+        display:block;
+        background:gray;
+        color:white;
+        height:30px;
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .topdetails a:hover{
+        background:darkgray;
+        /*color: white;*/
+        color: black;
+    }
+
+    @media screen and (max-width: 1024px){
+        .logo{
+            display:none;
+        }
+        .innerbanner #inner_ul{
+            list-style:none;
+            display:block;
+        }
+    }
+</style>
+<div class="innerbanner" id="bannerid">
+    <ul id="inner_ul">
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="/">
+                Remember the URL:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="">
+                <span style='color:blue'>Discounted! ></span>
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom">
+                Drone
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>amazon&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2NBHhN7">United States</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2N0KGzS">Japan</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zoRl3e">Germany</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zodOgB">United Kingdom</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xAksiw">India</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2NBHpfz">France</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zoRwvq">Italy</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2O4YeyF">Spain</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xAksiw">Canada</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.amazon.cn/?tag=znrio-23">China</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xKqLiP">Brazil</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2DotW60">Australia</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.amazon.com.mx/">Mexico</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>ebay 1&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com/">United States</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.uk/">United Kingdom</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.de/">Germany</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.au/">Australia</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.it/">Italy</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.fr/">France</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.es/">Spain</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ca/">Canada</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ie/">Ireland</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.at/">Austria</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="http://www.ebay.be/">Belgium</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.nl/">Netherlands</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ch/">Switzerland</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>ebay 2&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.gittigidiyor.com/">Turkey</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.pl/">Poland</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.hk/">China Hong Kong</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="http://global.gmarket.co.kr/Home/Main">Korea</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.sg/">Singapore</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ph/">Philippines</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.my/">Malaysia</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.in/">India</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.cn/">China Mainland</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.jp/">Japan</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.th/">Thailand</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.vn/">Vietnam</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.tw/">Taiwan,China</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.se/">Sweden</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+    </ul>
+</div>
+<p id="hiddenid" style="color:white;position:absolute;right:15px;top:1px;margin:0;padding:0;font-size:12px;" onclick="hiddenBanner()">hidden</p>
+<script>
+    function hiddenBanner() {
+        var b = document.getElementById("bannerid");
+        var p = document.getElementById("hiddenid");
+        if (b.style.display=="none"){
+            b.style.display="flex";
+            p.innerHTML="hidden";
+            p.style.color="white"
+        }else{
+            b.style.display="none";
+            p.innerHTML="show";
+            p.style.color="white"
+        }
+    }
+</script>
+
+	</div>
+    <div class="center">
+        <nav id="nav" class="nav" >
+           
+
+
+<details class="menu" open onmouseover="opendetail(this)">
+    <summary>JSON Tool</summary>
+    <ul>
+        
+        <li>
+            <a href="/en/json-editor.html"  style="color:white;" >
+            JSON multi-function editor
+            </a>
+        </li>
+        
+    </ul>
+</details>
+    
+
+        </nav>
+        <div class="workspace">
+            
+<style type="text/css" scoped>
+    .json-editor {
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        height:600px;
+    }
+    .json-editor-left{
+        width: 50%;
+        height:100%;
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+    }
+    .json-editor-right{
+        width: 50%;
+        height:100%;
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+    }
+    #code-panel{
+        width:100%;
+        height:100%;
+        min-height: 200px;
+        flex-grow: 1;
+    }
+    #json-panel{
+        width: 100%;
+        height:100%;
+        min-height: 200px;
+        flex-grow: 1;
+    }
+    .buttons{
+        padding:10px;
+    }
+    @media screen and (max-width: 1024px){
+        .json-editor{
+            flex-direction: column;
+        }
+        .json-editor-left{
+            width:100%;
+            min-height: 200px;
+        }
+        .json-editor-right{
+            width:100%;
+            min-height: 200px;
+        }
+    }
+</style>
+
+<div class="json-editor" ondragover="allowDrop(event)">
+    <div class="json-editor-left">
+        <div id="code-panel"></div>
+        <div class="buttons">
+            <label>ctrl+f：</label><button onclick="format()">format</button>
+            <label>ctrl+c：</label><button onclick="compact()">compact</button>
+            <label>ctrl+p：</label><button onclick="toView()">convert</button>
+        </div>
+    </div>
+    <div class="json-editor-right">
+        <div id="json-panel"></div>
+        <div class="buttons">
+            <label>ctrl+q：</label><button onclick="toCode()">convert</button>
+        </div>
+    </div>
+</div>
+<div class="pagebody"><h2 id="introduction">Introduction</h2>
+
+<p>JSON (JavaScript Object Notation) is a subset of <a href="http://javascript.crockford.com/" title="JavaScript Programming Language">JavaScript Programming Language</a>, and the syntax of json is described in detail in <a href="https://www.json.org/" title="JSON official website">JSON official website</a>.
+The JSON data format is language-independent and has been born out of JavaScript, but many programming languages currently support the generation and parsing of JSON format data. As a lightweight data exchange format. Easy to read and write, but also easy to machine parsing and generating.</p>
+
+<p>This is an online json editor that automatically checks for syntax and prompts errors when writing json code in the left window. The json code can be formatted (styled), compressed, and converted to the right tree view through several buttons below the window.
+The tree view on the right can also be edited, you can directly add/delete json nodes, and modify the value of json node.</p>
+
+<p>In addition to the json editor, you can also use it as a json formatter, json beautifier, json compressor, json viewer, and more.
+This tool can help you quickly understand the structure and content of json when the json text is long and compressed into a single line.</p>
+
+<h2 id="reference">Reference</h2>
+
+<ol>
+  <li><a href="https://en.wikipedia.org/wiki/JSON" title="JSON wiki">JSON on MediaWiki</a></li>
+  <li><a href="https://www.json.org/" title="JSON official website">JSON official website</a></li>
+  <li><a href="http://javascript.crockford.com/" title="JavaScript Programming Language">JavaScript Programming Language</a></li>
+  <li><a href="https://github.com/josdejong/jsoneditor" title="github: jsoneditor">github: jsoneditor</a></li>
+</ol>
+
+</div>
+
+        </div>
+    </div>
+	<div class="bottom">
+			<p style="color:white">Thanks for use.</p>
+	</div>
+	<script src="/assets/js/js.js" charset="utf-8"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.24.6/jsoneditor.min.js" defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js" defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsonlint/1.6.0/jsonlint.min.js" defer></script>
+    
+    <script src="/assets/js/json-editor.js" defer></script>
+    
+
+    
+</body>
+</html>

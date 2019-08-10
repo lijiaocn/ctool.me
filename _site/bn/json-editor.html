@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="utf-8" content="text/html">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JSON মাল্টি ফাংশন সম্পাদক: ফর্ম্যাট, কম্প্যাক্টর, বৈধতা, beautifier, পার্সার এবং গাছ দর্শক (সহজ এবং ব্যবহার করা সহজ)</title>
+<meta name="description" content="একটি বহুমুখী অনলাইন জসন সম্পাদক এবং ফরম্যাট, কিন্তু জসন বৈধতা, জসন দর্শক, জসন পার্সার, জসন সৌন্দর্যবিদ এবং জসন সম্পাদক হিসাবে ব্যবহার করা যেতে পারে" />
+<meta name="keywords" content=""/>
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- ebay -->
+<script>window._epn = {campaign:5338384777};</script>
+<!--script src="https://epnt.ebay.com/static/epn-smart-tools.js"></script-->
+<script async src="/assets/js/epn-smart-tools.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125829567-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-125829567-1');
+</script>
+<script async src="/assets/js/head.js"></script>
+
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.24.6/jsoneditor.min.css" rel="stylesheet"/>
+
+
+
+
+</head>
+
+<body class="body">
+	<div class="top">
+			
+<style type="text/css" scoped>
+    .innerbanner{
+        background:gray;
+        color:white;
+        padding-right:40px;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width:100%;
+        font-size:15px;
+        padding-left:15px;
+        padding-top:10px;
+    }
+    .innerbanner a{
+        color:white;
+    }
+    .innerbanner a:hover{
+        color: black;
+        text-decoration: none;
+        font-size:large;
+    }
+    .innerbanner #inner_ul {
+        display:flex;
+        color:white;
+        padding-left:0px;
+        margin:0px;
+        align-items: flex-start;
+    }
+    .innerbanner #inner_li {
+        list-style:none;
+        display:inline-block;
+        line-height:25px;
+    }
+    .topdetails{
+        top:10px;
+        display: inline-block;
+    }
+    .topdetails summary::-webkit-details-marker {
+        display: none;
+    }
+    .topdetails summary:first-of-type {
+        list-style-type: none;
+    }
+    .topdetails ul{
+        padding:0px;
+    }
+    .topdetails li{
+        list-style:none;
+        text-index:0px;
+    }
+    .topdetails a{
+        display:block;
+        background:gray;
+        color:white;
+        height:30px;
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .topdetails a:hover{
+        background:darkgray;
+        /*color: white;*/
+        color: black;
+    }
+
+    @media screen and (max-width: 1024px){
+        .logo{
+            display:none;
+        }
+        .innerbanner #inner_ul{
+            list-style:none;
+            display:block;
+        }
+    }
+</style>
+<div class="innerbanner" id="bannerid">
+    <ul id="inner_ul">
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="/">
+                ইউআরএল মনে রাখবেন:&nbsp&nbsp<span style='font-size:large'>ctool.me</span>
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="">
+                <span style='color:blue'>ছাড়! ></span>
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <a target="_blank" href="https://click.dji.com/AL-LSUOcsiUUt2UUzOSh?as=0003&ch=ctool&pm=custom">
+                গুঁজনধ্বনি
+                </a>&nbsp&nbsp&nbsp
+        
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>নারী-সৈনিক&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2NBHhN7">মার্কিন যুক্তরাষ্ট্র</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2N0KGzS">জাপান</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zoRl3e">জার্মানি</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zodOgB">যুক্তরাজ্য</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xAksiw">ভারত</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2NBHpfz">ফ্রান্স</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2zoRwvq">ইতালি</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2O4YeyF">স্পেন</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xAksiw">কানাডা</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.amazon.cn/?tag=znrio-23">চীন</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2xKqLiP">ব্রাজিল</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://amzn.to/2DotW60">অস্ট্রেলিয়া</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.amazon.com.mx/">মক্সিকো</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>ইবে 1&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com/">মার্কিন যুক্তরাষ্ট্র</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.uk/">যুক্তরাজ্য</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.de/">জার্মানি</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.au/">অস্ট্রেলিয়া</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.it/">ইতালি</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.fr/">ফ্রান্স</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.es/">স্পেন</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ca/">কানাডা</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ie/">আয়ারল্যাণ্ড</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.at/">অস্ট্রিয়া</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="http://www.ebay.be/">বেলজিয়াম</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.nl/">হলণ্ড</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ch/">সুইজর্লণ্ড</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+        <li id="inner_li" style="">
+        
+                <details class="topdetails" onmouseover="showmenu(this)" onmouseleave="hiddenmenu(this)">
+                    <summary>ইবে 2&nbsp&nbsp&nbsp</summary>
+                    <ul>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.gittigidiyor.com/">তুরস্ক</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.pl/">পোল্যাণ্ড</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.hk/">হংকং, চীন</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="http://global.gmarket.co.kr/Home/Main">কোরিয়া</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.sg/">সিঙ্গাপুর</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.ph/">ফিলিপাইন</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.my/">মাল্যাশিয়া</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.in/">ভারত</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.cn/">মাইনল্যান্ড চীন</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.jp/">জাপান</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.co.th/">থাইল্যান্ড</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.vn/">ভিয়েতনাম</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.com.tw/">তাইওয়ান, চীন</a>
+                            </li>
+                        
+                            <li>
+                                <a target="_blank" href="https://www.ebay.se/">সুইডেন</a>
+                            </li>
+                        
+                    </ul>
+                </details>
+            
+        </li>
+    
+    </ul>
+</div>
+<p id="hiddenid" style="color:white;position:absolute;right:15px;top:1px;margin:0;padding:0;font-size:12px;" onclick="hiddenBanner()">গোপন</p>
+<script>
+    function hiddenBanner() {
+        var b = document.getElementById("bannerid");
+        var p = document.getElementById("hiddenid");
+        if (b.style.display=="none"){
+            b.style.display="flex";
+            p.innerHTML="গোপন";
+            p.style.color="white"
+        }else{
+            b.style.display="none";
+            p.innerHTML="প্রদর্শনী";
+            p.style.color="white"
+        }
+    }
+</script>
+
+	</div>
+    <div class="center">
+        <nav id="nav" class="nav" >
+           
+
+
+<details class="menu" open onmouseover="opendetail(this)">
+    <summary></summary>
+    <ul>
+        
+    </ul>
+</details>
+    
+<details class="menu" open onmouseover="opendetail(this)">
+    <summary></summary>
+    <ul>
+        
+    </ul>
+</details>
+    
+<details class="menu" open onmouseover="opendetail(this)">
+    <summary></summary>
+    <ul>
+        
+    </ul>
+</details>
+    
+<details class="menu" open onmouseover="opendetail(this)">
+    <summary></summary>
+    <ul>
+        
+    </ul>
+</details>
+    
+<details class="menu" open onmouseover="opendetail(this)">
+    <summary></summary>
+    <ul>
+        
+    </ul>
+</details>
+    
+<details class="menu" open onmouseover="opendetail(this)">
+    <summary></summary>
+    <ul>
+        
+    </ul>
+</details>
+    
+
+        </nav>
+        <div class="workspace">
+            
+<style type="text/css" scoped>
+    .json-editor {
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        height:600px;
+    }
+    .json-editor-left{
+        width: 50%;
+        height:100%;
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+    }
+    .json-editor-right{
+        width: 50%;
+        height:100%;
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+    }
+    #code-panel{
+        width:100%;
+        height:100%;
+        min-height: 200px;
+        flex-grow: 1;
+    }
+    #json-panel{
+        width: 100%;
+        height:100%;
+        min-height: 200px;
+        flex-grow: 1;
+    }
+    .buttons{
+        padding:10px;
+    }
+    @media screen and (max-width: 1024px){
+        .json-editor{
+            flex-direction: column;
+        }
+        .json-editor-left{
+            width:100%;
+            min-height: 200px;
+        }
+        .json-editor-right{
+            width:100%;
+            min-height: 200px;
+        }
+    }
+</style>
+
+<div class="json-editor" ondragover="allowDrop(event)">
+    <div class="json-editor-left">
+        <div id="code-panel"></div>
+        <div class="buttons">
+            <label>ctrl+f：</label><button onclick="format()">বিন্যাস</button>
+            <label>ctrl+c：</label><button onclick="compact()">নিবিড়</button>
+            <label>ctrl+p：</label><button onclick="toView()">রূপান্তর</button>
+        </div>
+    </div>
+    <div class="json-editor-right">
+        <div id="json-panel"></div>
+        <div class="buttons">
+            <label>ctrl+q：</label><button onclick="toCode()">রূপান্তর</button>
+        </div>
+    </div>
+</div>
+<div class="pagebody"><h2 id="ভূমিকা">ভূমিকা</h2>
+
+<p>JSON (জাভাস্ক্রিপ্ট অবজেক্ট নোটেশন) <a href="http://javascript.crockford.com/" title="JavaScript Programming Language">জাভাস্ক্রিপ্ট প্রোগ্রামিং ল্যাঙ্গুয়েজ</a> এর উপসেট, এবং জেসন এর সিনট্যাক্স বিস্তারিতভাবে <a href="https://www.json.org/" title="JSON official website">JSON অফিসিয়াল ওয়েবসাইট</a> এ বর্ণিত হয়েছে।
+JSON ডাটা ফর্ম্যাটটি ভাষা-স্বাধীন এবং জাভাস্ক্রিপ্ট থেকে জন্মগ্রহণ করা হয়েছে, তবে বেশিরভাগ প্রোগ্রামিং ভাষাগুলি বর্তমানে JSON বিন্যাসের ডেটা তৈরি এবং প্যারিসিংয়ের সমর্থন করে। একটি হালকা ডেটা বিনিময় ফর্ম্যাট হিসাবে। পড়তে এবং লিখতে সহজ, কিন্তু মেশিন পার্সিং এবং উৎপাদনের জন্য সহজ।</p>
+
+<p>এটি একটি অনলাইন জসন সম্পাদক যা স্বয়ংক্রিয়ভাবে সিনট্যাক্সের জন্য পরীক্ষা করে এবং বাম উইন্ডোতে জson কোড লেখার সময় ত্রুটিগুলি প্রম্পট করে। জসন কোডটি ফরম্যাট করা (স্টাইলযুক্ত), সংকুচিত এবং উইন্ডোটির নিচে কয়েকটি বোতামের মাধ্যমে ডান গাছের রূপে রূপান্তর করা যেতে পারে।
+ডানদিকে বৃক্ষের দৃশ্যটি সম্পাদনা করা যেতে পারে, আপনি সরাসরি জেসন নোডগুলি যোগ / মুছতে পারেন এবং জ্যাসন নোডের মান পরিবর্তন করতে পারেন।</p>
+
+<p>জসন এডিটর ছাড়াও, আপনি এটি একটি জসন ফরম্যাট, জসন বিউটিফায়ার, জসন কম্প্রেসার, জসন ভিউয়ার এবং আরও অনেক কিছু হিসাবে ব্যবহার করতে পারেন।
+জেসন টেক্সট লম্বা এবং একক লাইনের মধ্যে সংকুচিত হলে এই সরঞ্জামটি জ্যাসনটির গঠন এবং সামগ্রীর দ্রুত বুঝতে সহায়তা করতে পারে।</p>
+
+<h2 id="উল্লেখ">উল্লেখ</h2>
+
+<ol>
+  <li><a href="https://en.wikipedia.org/wiki/JSON" title="JSON wiki">মিডিয়াওয়িকিতে JSON</a></li>
+  <li><a href="https://www.json.org/" title="JSON official website">JSON অফিসিয়াল ওয়েবসাইট</a></li>
+  <li><a href="http://javascript.crockford.com/" title="JavaScript Programming Language">জাভাস্ক্রিপ্ট প্রোগ্রামিং ভাষা</a></li>
+  <li><a href="https://github.com/josdejong/jsoneditor" title="github: jsoneditor">গিথুব: জসনদীটার</a></li>
+</ol>
+
+</div>
+
+        </div>
+    </div>
+	<div class="bottom">
+			<p style="color:white">Thanks for use.</p>
+	</div>
+	<script src="/assets/js/js.js" charset="utf-8"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/5.24.6/jsoneditor.min.js" defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js" defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsonlint/1.6.0/jsonlint.min.js" defer></script>
+    
+    <script src="/assets/js/json-editor.js" defer></script>
+    
+
+    
+</body>
+</html>
